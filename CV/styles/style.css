@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;500;700&family=Source+Sans+Pro:wght@200;300;600&display=swap');
+
+
+/* -------------------------- */
+/*           COLORS           */
+/* -------------------------- */
+
+:root {
+    --background: #0b0f1f;
+    --container: #202748b7;
+    --hover: #202748;
+    --date: #505895FF;
+
+    --text-important: #e7c500;
+    --text: white;
+    --text-description: #ccc;
+
+    --color4: #8c90ee;
+    --color5: #d3ceff;
+    --color8: #8c8fee8f;
+}
+
+/* -------------------------- */
+/*         SCROLL BAR         */
+/* -------------------------- */
+
+::-webkit-scrollbar {
+    width: 20px;
+    border-radius: 20px;
+    background-color: var(--container);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--date);
+    border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--color4);
+}
+
+/* -------------------------- */
+/*        NAVIGATION          */
+/* -------------------------- */
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+.control img,
+.control-language img {
+    margin: 10px 0;
+    border-radius: 50%;
+    background-color: var(--container);
+    box-shadow: 0 1px 5px var(--date);
+    cursor: pointer;
+}
+
+.control img {
+    width: 25px;
+    padding: 10px;
+}
+
+.control-language img {
+    width: 45px;
+    padding: 0;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 10;
+    top: 20%;
+    left: 3%;
+}
+
+.active img {
+    background-color: var(--date);
+}
+
+.gray img {
+    filter: grayscale(100%);
+    -webkit-transition: 1s all;
+}
+
+.gray img:hover {
+    filter: grayscale(0%);
+}
+
+/* -------------------------- */
+/*          HEADER            */
+/* -------------------------- */
+
+header, body, footer {
+    font-family: Nunito, serif;
+    color: var(--text);
+    background-color: var(--background);
+}
+
+header img {
+    width: 300px;
+    box-shadow: 0 0 10px 15px var(--hover);
+    border-radius: 50%;
+    margin: 0 25px;
+}
+
+header {
+    width: 1000px;
+    margin: 50px auto 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.welcome p {
+    font-size: 25px;
+    margin: 0 0;
+}
+
+h1 {
+    font-size: 70px;
+    color: var(--text-important);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 32px;
+    text-shadow: 0 0 2px var(--text);
+}
+
+/* -------------------------- */
+/*           ADDRESS          */
+/* -------------------------- */
+
+address {
+    width: 1000px;
+    margin: 25px auto;
+}
+
+.address-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-style: normal;
+}
+
+.address-element {
+    display: flex;
+    align-items: center;
+    border: 1px var(--container) solid;
+    padding: 10px;
+    border-radius: 500px;
+    background-color: var(--container);
+    transition: all 0.5s;
+}
+
+.address-element img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.address-element p {
+    margin: 0;
+}
+
+.address-container a:visited {
+    color: var(--text);
+    text-decoration: none;
+}
+
+.address-container a:link {
+    color: var(--text);
+    text-decoration: none;
+}
+
+.address-element:hover {
+    background-color: var(--date);
+    border: 1px var(--date) solid;
+}
+
+.address-element:active {
+    transform: scale(0.9);
+}
+
+/* -------------------------- */
+/*            BODY            */
+/* -------------------------- */
+
+.title-container {
+    width: 1000px;
+    margin: 50px auto 10px auto;
+    border-bottom: 1px solid var(--text);
+}
+
+.about-me {
+    margin: 0;
+    font-size: 17px;
+}
+
+ul {
+    padding: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+.content-container {
+    padding: 15px;
+    background-color: var(--container);
+    width: 1000px;
+    margin: 15px auto;
+    list-style: none;
+    box-sizing: border-box;
+    border-radius: 15px;
+    transition: 0.5s all;
+}
+
+.content-container:hover,
+.content-interest:hover,
+.language-content:hover,
+.skill:hover {
+    background-color: var(--hover);
+}
+
+.content-container:hover h3,
+.content-interest:hover h3,
+.language-content:hover h3 {
+    color: var(--text-important);
+}
+
+.title-date {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.date-container {
+    padding: 5px;
+    margin: 0;
+    background-color: #8c8fee8f;
+    border-radius: 10px;
+}
+
+.subtitle {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.description {
+    margin: 15px 0 0 0;
+    color: var(--text-description);
+    font-weight: 100;
+}
+
+.description li {
+    list-style: none
+
+}
+
+.description a:visited {
+    color: var(--text-description);
+    text-decoration: underline;
+}
+
+.description a:link {
+    color: var(--text-description);
+    text-decoration: underline;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-around;
+    width: 47%;
+    margin: 0 auto;
+}
+
+.interest,
+.languages,
+.skills {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    transition: 0.5s all;
+}
+
+.content-interest {
+    padding: 15px;
+    background-color: var(--container);
+    width: 24%;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    border-radius: 15px;
+    transition: 0.2s all;
+}
+
+.interest-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.interest-title img {
+    width: 40px;
+}
+
+.language-content,
+.skill {
+    padding: 15px;
+    background-color: var(--container);
+    width: 49.3%;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    border-radius: 15px;
+    transition: 0.2s all;
+}
+
+.language-content img {
+    border-radius: 50%;
+}
+
+/* -------------------------- */
+/*           FOOTER           */
+/* -------------------------- */
+
+.content-container-footer {
+    padding: 15px;
+    background-color: var(--container);
+    width: 1000px;
+    margin: 50px auto;
+    list-style: none;
+    box-sizing: border-box;
+    border-radius: 15px;
+    transition: 0.2s all;
+}
+
+.description-footer {
+    margin: 0;
+    color: var(--text-description);
+    font-weight: 100;
+}
