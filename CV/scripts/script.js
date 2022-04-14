@@ -1,5 +1,6 @@
 const title = document.querySelectorAll('h2');
 const buttons = document.querySelectorAll('.control');
+const name = document.querySelectorAll('h1');
 
 const statusBar = () => {
     let scrollY = window.scrollY;

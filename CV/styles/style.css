@@ -203,6 +203,12 @@ address {
 .about-me {
     margin: 0;
     font-size: 17px;
+    font-weight: 200;
+    text-align: justify;
+}
+
+strong {
+    font-weight: 800;
 }
 
 ul {
@@ -211,6 +217,7 @@ ul {
 
 h3 {
     margin: 0;
+    transition: 0.5s all;
 }
 
 .content-container {
@@ -351,5 +358,6 @@ h3 {
 .description-footer {
     margin: 0;
     color: var(--text-description);
+    text-align: justify;
     font-weight: 100;
 }
