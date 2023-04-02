@@ -7,7 +7,7 @@ I work with passion, a passion which is programming and which I develop every da
     <a href="https://github.com/adicz" target="_blank"><img alt="GitHub" src="https://img.shields.io/badge/-/adicz-181717?style=for-the-badge&logo=GitHub&logoColor=white"></a>
     <a href="https://www.linkedin.com/in/adrian-czy%C5%BC/" target="_blank"><img alt="GitHub" src="https://img.shields.io/badge/-/adrian--czyż-%230db7ed?style=for-the-badge&logo=LinkedIn&logoColor=white"></a>
     <a href="mailto:adrian.czyz.it@gmail.com" target="_blank"><img alt="e-mail" src="https://img.shields.io/badge/-adrian.czyz.it@gmail.com-%23ED8B00?style=for-the-badge&logo=GMail&logoColor=white"></a>
-    <a href="https://drive.google.com/u/0/uc?id=1tqdeuBfwGQnElm7RdHqmRT5t3NMaym78&export=download" target="_blank"><img alt="Resume" src="https://img.shields.io/badge/-Resume-%232C5263?style=for-the-badge&logo=ReadMe&logoColor=white"></a>
+    <a href="https://drive.google.com/u/0/uc?id=1FaG7g8_YtuGepd--ZexpfxJiRIYASCmR&export=download" target="_blank"><img alt="Resume" src="https://img.shields.io/badge/-Resume-%232C5263?style=for-the-badge&logo=ReadMe&logoColor=white"></a>
 </p>
 
 # 🛠️ Technologies and Tools I use
@@ -19,6 +19,7 @@ I work with passion, a passion which is programming and which I develop every da
     <a target="_blank"><img alt="PostgreSQL" src="https://img.shields.io/badge/postgresql-4169E1.svg?style=for-the-badge&logo=postgresql&logoColor=white"></a>
     <a target="_blank"><img alt="MySQL" src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white"></a>
     <a target="_blank"><img alt="Liquibase" src="https://img.shields.io/badge/liquibase-2962FF.svg?style=for-the-badge&logo=liquibase&logoColor=white"></a>
+    <a target="_blank"><img alt="Lombok" src="https://img.shields.io/badge/lombok-be1e2d.svg?style=for-the-badge&logo=lombog&logoColor=white"></a>
     <a target="_blank"><img alt="Docker" src="https://img.shields.io/badge/docker-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white"></a>
     <a target="_blank"><img alt="Python" src="https://img.shields.io/badge/python-3776AB.svg?style=for-the-badge&logo=python&logoColor=white"></a>
     <a target="_blank"><img alt="Jenkins" src="https://img.shields.io/badge/jenkins-D24939.svg?style=for-the-badge&logo=jenkins&logoColor=white"></a>
